@@ -1,0 +1,30 @@
+#pragma once
+
+const std::string words[231] = {
+    "autumn", "biscuit", "boot", "brilliant", "bungalow", "canteen", "caravan", "chemist",
+    "chips", "cinema", "clerk", "clingfilm", "crisps", "curriculum", "defence", "diary",
+    "dustbin", "enrol", "favour", "flat", "footpath", "football", "fortnight", "garden",
+    "governor", "grey", "holiday", "honour", "humour", "kerb", "labour", "lavatory",
+    "licence", "lift", "lorry", "marmalade", "maths", "metre", "mum", "nappy", "neighbour",
+    "odour", "parlour", "petrol", "plaster", "plough", "postcode", "pram", "programme",
+    "pudding", "queue", "railway", "realise", "roundabout", "rubbish", "rumour", "saviour",
+    "scone", "skilful", "sledge", "spanner", "spelling", "splendour", "station", "sulphur",
+    "tap", "telly", "theatre", "torch", "trainers", "tyre", "vapour", "wardrobe", "windscreen",
+    "yoghurt", "abbey", "accent", "apple", "artist", "beacon", "bench", "bishop", "bridge",
+    "bronze", "butter", "candle", "castle", "church", "cobble", "cottage", "cotton", "crown",
+    "crystal", "daisy", "donkey", "dragon", "eagle", "ermine", "fiddle", "garden", "gentle",
+    "ginger", "glider", "hammer", "harbour", "herald", "hobbit", "hurdle", "island", "jacket",
+    "jigsaw", "jumper", "kettle", "kingdom", "lantern", "legend", "letter", "mantle", "market",
+    "marrow", "master", "meadow", "mirror", "needle", "notebook", "onion", "orchid", "painter",
+    "pebble", "pepper", "pickle", "pigeon", "planet", "poetry", "potato", "quarry", "ranger",
+    "rapier", "ribbon", "robin", "safety", "scarlet", "scribe", "shepherd", "shield", "shovel",
+    "silver", "slipper", "snowdrop", "soldier", "soprano", "sparkle", "spindle", "spring", "statue",
+    "steward", "tailor", "tavern", "teacup", "temple", "thistle", "ticket", "tinker", "trumpet",
+    "tulip", "unicorn", "valley", "vicar", "village", "violet", "weasel", "weaver", "willow",
+    "woollen", "zephyr", "abbot", "archer", "banjo", "barley", "bishop", "butler", "candle",
+    "castle", "cobbler", "coral", "dancer", "driver", "farmer", "guitar", "herald", "kettle",
+    "lantern", "librarian", "maple", "merchant", "needle", "parrot", "quiver", "scribe", "sentry",
+    "tailor", "tavern", "village", "whistle", "willow", "plum", "pumpkin", "gauge", "golden",
+    "alley", "plaster", "cornfield", "fashion", "tiger", "butterfly", "coach", "blanket", "mushroom",
+    "canopy", "frame", "wicket", "goose", "beacon", "moose", "drift", "snipe", "fence", "marble"
+};
