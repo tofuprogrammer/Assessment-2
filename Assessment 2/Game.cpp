@@ -21,6 +21,13 @@ int main() {
         std::cout << "2) Nurdle\n";
         std::cout << "Enter 1 for Wordle, 2 for Nurdle: ";
         std::cin >> gameChoice;
+        std::cout << '\n';
+        
+        while (gameChoice != 1 && gameChoice != 2) {
+            std::cout << "Invalid input!\n";
+            std::cout << "Enter 1 for Wordle, 2 for Nurdle: ";
+            std::cin >> gameChoice;
+        }
         
         if (gameChoice == 1) {
             std::string guess;
