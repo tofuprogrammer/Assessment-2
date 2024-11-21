@@ -1,6 +1,6 @@
 #pragma once
 
-const std::string words[231] = {
+const std::string words[231] = { // An array of 231 words. These are all the possible answers for the Wordle game.
     "autumn", "biscuit", "boot", "brilliant", "bungalow", "canteen", "caravan", "chemist",
     "chips", "cinema", "clerk", "clingfilm", "crisps", "curriculum", "defence", "diary",
     "dustbin", "enrol", "favour", "flat", "footpath", "football", "fortnight", "garden",
