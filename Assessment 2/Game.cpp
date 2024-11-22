@@ -5,6 +5,7 @@
 
 #include "Checks.hpp"
 #include "Clearer.hpp"
+#include "Numbers.hpp"
 #include "Randomiser.hpp"
 #include "Words.hpp"
 
@@ -98,7 +99,12 @@ int main() {
                 std::cout << "You've guessed correctly!";
             }
         }
-            
+        
+        else if (gameChoice == 2) {
+            int guessNumber;
+            int answerNumber = numbers[random(0, 230)];
+            maxAttempts = static_cast<int>(std::to_string(abs(answerNumber)).length() + 1);
+        }
         std::cout << '\n';
         std::cout << "Play again? (y/n): ";
         char playerStartChoice;
