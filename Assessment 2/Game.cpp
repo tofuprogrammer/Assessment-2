@@ -33,7 +33,8 @@ int main() {
         if (gameChoice == 1) {
             std::string guessWord;
             std::string answerWord = words[random(0, 230)];
-            maxAttempts = static_cast<int>(answerWord.length() + 1);
+            int answerWordLength = static_cast<int>(answerWord.length());
+            maxAttempts = static_cast<int>(answerWordLength + 1);
             std::vector<char> answerVector(answerWord.begin(), answerWord.end());
             int answerCounter[26] = {0};
             for (char character : answerWord) {
@@ -103,7 +104,8 @@ int main() {
         else if (gameChoice == 2) {
             int guessNumber;
             int answerNumber = numbers[random(0, 230)];
-            maxAttempts = static_cast<int>(std::to_string(abs(answerNumber)).length() + 1);
+            int answerNumberLength = static_cast<int>(std::to_string(abs(answerNumber)).length());
+            maxAttempts = answerNumberLength + 1;
         }
         std::cout << '\n';
         std::cout << "Play again? (y/n): ";
